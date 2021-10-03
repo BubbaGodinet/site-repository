@@ -1,3 +1,21 @@
 body {
-    background: blue;
+    background: whitesmoke;
 }
+
+div {
+    width: 1000px;	
+    height: 1000px;	
+    background-color: darkblue;	
+    position: relative;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 50px;
+    font-family: didot, serif;
+}
+
