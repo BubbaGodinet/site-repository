@@ -7,10 +7,10 @@ body > div {
     border-width: 5px;
     background-color: darkblue;	
     position: fixed;
-    top: 20px;
-    left: 20px;
-    min-width: 96.5%;
-    min-height: 94.5%;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 h1 {
@@ -22,6 +22,15 @@ h1 {
     font-family: didot, serif;
 }
 
+h3 {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: didot, serif;
+}
+
 .flip-card-back > h1 {
     font-size: 30px;
 }
@@ -30,10 +39,11 @@ h1 {
     display: flex;
     flex-direction: row;
     float: left;
+    padding-left: 50px;
+    padding-bottom: 15px;
     background-color: transparent;
     width: 300px;
     height: 200px;
-    border: 1px solid black;
     perspective: 1000px; 
   }
   
@@ -68,4 +78,5 @@ h1 {
     color: black;
     transform: rotateY(180deg);
   }
+
 
