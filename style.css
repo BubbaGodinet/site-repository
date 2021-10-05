@@ -5,7 +5,8 @@ body {
 body > div {
     border-style: solid;
     border-width: 5px;
-    background-color: darkblue;	
+    background-image: url("https://img2.goodfon.com/original/1920x1080/c/38/kyle-gray-minimal-space-star.jpg");
+    background-color: #cccccc;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,18 +18,23 @@ h1 {
     position: relative;
     top: 20px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: lightslategray;
     font-size: 50px;
     font-family: didot, serif;
 }
 
 h3 {
     position: relative;
-    top: -20px;
+    top: -13px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: lightslategray;
     font-size: 15px;
     font-family: didot, serif;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
 }
 
 .flip-card-back > h1 {
@@ -42,7 +48,7 @@ h3 {
     padding-left: 50px;
     padding-bottom: 15px;
     background-color: transparent;
-    width: 300px;
+    width: 20%;
     height: 200px;
     perspective: 1000px; 
   }
@@ -78,5 +84,6 @@ h3 {
     color: black;
     transform: rotateY(180deg);
   }
+
 
 
